@@ -24,6 +24,7 @@ https://coolors.co/ef946c-e5ffde-7a5c61-63b4d1-004953
 body {
 	font-size: 62.5%;
 	background: #e5ffdeff;
+	color: #49392cff;
 	font-family: 'Montserrat', sans-serif;
 }
 
@@ -34,7 +35,6 @@ h4,
 h5,
 h6 {
 	font-family: 'Lemonada', cursive;
-	color: #49392cff;
 }
 
 h1 {
@@ -44,8 +44,19 @@ h2 {
 	font-size: 2rem;
 }
 
+h3 {
+	margin-top: 0;
+	font-size: 1.75rem;
+}
+
 p {
 	font-size: 1.25rem;
+}
+
+img {
+	border: 1px solid #49392cff;
+	width: 100%;
+	margin: auto;
 }
 
 /* Header */
@@ -69,8 +80,8 @@ nav {
 }
 
 nav a {
-	color: #0f4c5cff;
 	text-decoration: none;
+	color: #49392cff;
 }
 
 .nav-button {
@@ -78,50 +89,68 @@ nav a {
 	padding: 1rem;
 	text-align: center;
 	font-size: 1.3rem;
-	border-radius: 5px;
+	border-radius: 25px;
 }
 
 .nav-button:hover {
 	background: #63b4d1ff;
+	color: #0f4c5cff;
+	border: 1px solid #0f4c5cff;
 }
 
 /* Main Content */
 
 main {
-	margin: 1.5rem;
+	padding: 2rem 2rem;
+	margin: auto;
 }
 
 .intro {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
+	width: 100%;
+	margin: auto;
+	padding: 2rem 0;
 }
 
-.intro img {
-	width: 50%;
+.intro-img {
+	width: 100%;
+	margin: auto;
 }
 
 .intro-text {
-	width: 50%;
-	padding: 5rem 3rem 3rem 3rem;
+	width: 100%;
+	margin: auto;
+	padding: 5rem 0 3rem 3rem;
 }
 
 .gallery {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	width: 100%;
-	flex-wrap: wrap;
 }
 
-.first-row {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	width: 100%;
+.gallery-images {
+	margin: 2rem 0;
+	text-align: center;
 }
 
-.first-row img {
-	padding: 2rem 2rem 0 0;
-	width: 25%;
+footer {
+	background: #49392cff;
+	padding: 2rem;
+	border-top: 2px solid #ef946cff;
+	color: #ef946cff;
+	text-align: center;
+}
+
+footer button {
+	width: 16rem;
+	height: 4rem;
+	font-size: 1.25rem;
+	text-align: center;
+	background: #0f4c5cff;
+	color: #63b4d1ff;
+	border-radius: 25px;
+	border: 1px solid #63b4d1ff;
 }
