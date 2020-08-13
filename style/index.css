@@ -1,1 +1,60 @@
-/* Add CSS styling here */
+/* 
+
+google fonts // 
+
+    font-family: 'Lemonada', cursive;
+    font-family: 'Montserrat', sans-serif;
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+color theme // 
+
+https://coolors.co/ef946c-e5ffde-7a5c61-63b4d1-004953
+
+    --dark-salmon: #ef946cff;
+    --nyanza: #e5ffdeff;
+    --dark-lava: #49392cff;
+    --maximum-blue: #63b4d1ff;
+    --midnight-green-eagle-green: #0f4c5cff;
+
+*/
+
+/* General */
+
+body {
+	font-size: 62.5%;
+	background: #e5ffdeff;
+	font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+	font-family: 'Lemonada', cursive;
+	font-size: 3rem;
+	color: #49392cff;
+}
+
+/* Header */
+
+header {
+	background: #ef946cff;
+	padding: 1.5rem 1.5rem;
+	border-bottom: 1px solid #49392cff;
+}
+
+header h1 {
+	margin: 0 auto;
+	padding: 0 0 1rem 0;
+}
+
+nav {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+
+.nav-button {
+	width: 6rem;
+	font-size: 1rem;
+}
+
+/* Main */
