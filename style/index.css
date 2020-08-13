@@ -37,13 +37,12 @@ h1 {
 
 header {
 	background: #ef946cff;
-	padding: 1.5rem 1.5rem;
+	padding: 1.5rem 1.5rem 0 1.5rem;
 	border-bottom: 1px solid #49392cff;
 }
 
 header h1 {
 	margin: 0 auto;
-	padding: 0 0 1rem 0;
 }
 
 nav {
@@ -52,9 +51,25 @@ nav {
 	justify-content: flex-start;
 }
 
+nav a {
+	color: #0f4c5cff;
+	text-decoration: none;
+}
+
 .nav-button {
 	width: 6rem;
+	padding: 1rem 1rem;
+	text-align: center;
 	font-size: 1rem;
+	border-right: 1px dotted #49392cff;
+}
+
+.nav-button:hover {
+	background: #63b4d1ff;
+}
+
+.nav-button:nth-of-type(4) {
+	border: none;
 }
 
 /* Main */
