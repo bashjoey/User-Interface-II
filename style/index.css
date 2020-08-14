@@ -47,8 +47,8 @@ h2 {
 }
 
 h3 {
-	margin-top: 0;
 	font-size: 1.75rem;
+	color: #63b4d1ff;
 }
 
 p {
@@ -166,7 +166,6 @@ button:hover {
 
 footer {
 	background: #49392cff;
-	padding: 2rem;
 	border-top: 2px solid #ef946cff;
 	color: #ef946cff;
 	text-align: center;
@@ -189,13 +188,30 @@ footer button:hover {
 	border: 1px solid #e5ffdeff;
 }
 
+socials {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	width: 100%;
+	padding: 1rem 0;
+}
+
+.social-links {
+	display: flex;
+}
+
+.social-links img {
+	padding: 1rem;
+	width: 50%;
+}
+
 @media only screen and (max-width: 965px) {
 	header {
 		text-align: center;
 	}
 	nav {
 		justify-content: center;
-		padding: 0 0 2rem 0;
+		padding: 0 2rem;
 	}
 	.intro {
 		flex-wrap: wrap;
