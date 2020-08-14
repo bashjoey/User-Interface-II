@@ -139,6 +139,8 @@ main {
 button {
 	width: 16rem;
 	height: 4rem;
+	font-weight: 700;
+	font-style: oblique;
 	font-size: 1.25rem;
 	text-align: center;
 	background: #0f4c5cff;
@@ -174,8 +176,6 @@ footer {
 footer button {
 	width: 16rem;
 	height: 4rem;
-	font-weight: 700;
-	font-style: oblique;
 	text-align: center;
 	background: #ef946cff;
 	color: #e5ffdeff;
@@ -202,8 +202,10 @@ socials {
 
 .social-links img {
 	padding: 1rem;
-	width: 50%;
+	width: 30%;
 }
+
+/* Responsive */
 
 @media only screen and (max-width: 965px) {
 	header {
