@@ -40,6 +40,7 @@ h6 {
 h1 {
 	font-size: 3rem;
 }
+
 h2 {
 	font-size: 2rem;
 }
@@ -50,7 +51,7 @@ h3 {
 }
 
 p {
-	font-size: 1.25rem;
+	font-size: 1rem;
 }
 
 img {
@@ -63,20 +64,20 @@ img {
 
 header {
 	background: #ef946cff;
-	padding: 1.5rem 1.5rem 0 1.5rem;
+	width: 100%;
 	border-bottom: 2px solid #49392cff;
 }
 
 header h1 {
 	margin: 0 auto;
-	padding-bottom: 1rem;
+	padding: 2rem 2rem 0 2rem;
 }
 
 nav {
 	display: flex;
 	flex-direction: row;
 	justify-content: flex-start;
-	padding-bottom: 1rem;
+	padding: 2rem;
 }
 
 nav a {
@@ -88,7 +89,7 @@ nav a {
 	width: 6rem;
 	padding: 1rem;
 	text-align: center;
-	font-size: 1.3rem;
+	font-size: 1rem;
 	border-radius: 25px;
 }
 
@@ -101,7 +102,7 @@ nav a {
 /* Main Content */
 
 main {
-	padding: 2rem 2rem;
+	padding: 1rem 4rem;
 	margin: auto;
 }
 
@@ -153,4 +154,46 @@ footer button {
 	color: #63b4d1ff;
 	border-radius: 25px;
 	border: 1px solid #63b4d1ff;
+}
+
+@media only screen and (max-width: 965px) {
+
+	header {
+		text-align: center;
+	}
+
+	h1 {
+		font-size: 2.5rem;
+	}
+
+	nav {
+		justify-content: center;
+		flex-wrap: wrap;
+	}
+
+	.intro {
+		flex-wrap: wrap;
+		width: 75%;
+		padding: 2rem 0 0 0;
+	}
+
+	.intro-text {
+		text-align: center;
+		padding: 0 1rem 1rem 0;
+	}
+
+	.gallery {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.gallery-images {
+		width: 45%;
+		margin: 0;
+	}
+	.gallery-images:first-child {
+		margin-top: 0;
+	}
 }
