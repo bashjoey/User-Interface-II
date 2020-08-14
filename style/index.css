@@ -89,7 +89,6 @@ nav a {
 
 .nav-button {
 	width: 6rem;
-	margin-right: 1rem;
 	padding: 1rem;
 	text-align: center;
 	font-size: 1.25rem;
@@ -136,8 +135,6 @@ main {
 	margin: auto;
 	padding: 3.55rem 0 0 3rem;
 }
-
-
 
 button {
 	width: 16rem;
@@ -196,40 +193,48 @@ footer button:hover {
 	header {
 		text-align: center;
 	}
-
-	h1 {
-		font-size: 2.5rem;
-	}
-
 	nav {
-		flex-wrap: wrap;
 		justify-content: center;
-		padding-left: 0;
+		padding: 0 0 2rem 0;
 	}
-
 	.intro {
 		flex-wrap: wrap;
-		width: 75%;
+		width: 70%;
 		padding: 2rem 0 0 0;
 	}
-
 	.intro-text {
 		text-align: center;
 		padding: 0 0rem 1rem 0;
 	}
-
 	.gallery {
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
 	}
-
-	.gallery-images {
-		width: 45%;
-		margin: 0;
-	}
 	.gallery-images:first-child {
 		margin-top: 0;
+	}
+}
+
+@media only screen and (max-width: 545px) {
+	h1 {
+		font-size: 2.5rem;
+	}
+	h2 {
+		font-size: 1.75rem;
+	}
+	h3 {
+		font-size: 1.25rem;
+	}
+	nav {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		padding: 0 0;
+	}
+	.nav-button {
+		padding: 1rem 0;
+		width: 100%;
 	}
 }
