@@ -217,10 +217,6 @@ socials {
 	.intro-text h2 {
 		font-size: 2rem;
 	}
-
-	.intro-text p {
-		font-size: 1rem;
-	}
 }
 
 @media only screen and (max-width: 800px) {
