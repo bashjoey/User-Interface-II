@@ -162,12 +162,12 @@ button:hover {
 .gallery {
 	width: 100%;
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: space-between;
 }
 
 .gallery-images {
 	width: 24%;
-	padding: 0 1%;
 	text-align: center;
 }
 
@@ -286,6 +286,11 @@ socials {
 	.nav-button {
 		font-size: 1rem;
 	}
+
+	.gallery-images {
+		width: 80%;
+		padding: 0 10%;
+	}
 }
 
 @media only screen and (max-width: 375px) {
@@ -304,11 +309,6 @@ socials {
 	.intro-text {
 		width: 250px;
 	}
-
-	.gallery-images {
-		width: 80%;
-		padding: 0 10%;
-	}
 }
 
 @media only screen and (max-width: 300px) {
@@ -319,6 +319,15 @@ socials {
 	.intro-text h2 {
 		font-size: 1.25rem;
 	}
+
+	h3 {
+		font-size: 1rem;
+	}
+
+	h4 {
+		font-size: 1.25rem;
+	}
+
 	button {
 		width: 10rem;
 		font-size: 1rem;
@@ -336,6 +345,7 @@ socials {
 		width: 60%;
 		padding: 0 20%;
 	}
+
 	footer button {
 		width: 10rem;
 	}
