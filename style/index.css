@@ -217,9 +217,12 @@ socials {
 	.intro-text h2 {
 		font-size: 2rem;
 	}
+	.intro-text p {
+		font-size: 1rem;
+	}
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 865px) {
 	header {
 		text-align: center;
 	}
@@ -314,9 +317,9 @@ socials {
 		font-size: 1.5rem;
 	}
 
-	.intro-text p {
+	/* .intro-text p {
 		font-size: 1rem;
-	}
+	} */
 
 	button {
 		width: 10rem;
