@@ -67,7 +67,7 @@ img {
 	margin: auto;
 }
 
-/* Header */
+/* Header & Navigation */
 
 header {
 	background: #ef946cff;
@@ -121,24 +121,6 @@ main {
 	margin: auto;
 }
 
-.intro {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	padding: 1rem 0 2rem 0;
-}
-
-.intro-img {
-	width: 100%;
-	margin: auto;
-}
-
-.intro-text {
-	width: 100%;
-	margin: auto;
-	padding: 0 0 0 2rem;
-}
-
 button {
 	width: 16rem;
 	height: 4rem;
@@ -155,6 +137,24 @@ button:hover {
 	background: #63b4d1ff;
 	color: #0f4c5cff;
 	border: 1px solid #0f4c5cff;
+}
+
+.intro {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 1rem 0 2rem 0;
+}
+
+.intro-img {
+	width: 100%;
+	margin: auto;
+}
+
+.intro-text {
+	width: 100%;
+	margin: auto;
+	padding: 0 0 0 2rem;
 }
 
 /* Gallery */
@@ -260,6 +260,11 @@ socials {
 		font-size: 2.5rem;
 	}
 
+	nav {
+		flex-direction: column;
+		align-items: center;
+	}
+
 	.intro-img {
 		width: 300px;
 	}
@@ -270,11 +275,6 @@ socials {
 
 	.intro-text h2 {
 		font-size: 1.75rem;
-	}
-
-	nav {
-		flex-direction: column;
-		align-items: center;
 	}
 }
 
@@ -302,34 +302,20 @@ socials {
 		font-size: 2rem;
 	}
 
-	.intro-text h2 {
-		font-size: 1.5rem;
-	}
-
-	.intro-img {
-		width: 250px;
-	}
-
-	.intro-text {
-		width: 250px;
-	}
-}
-
-@media only screen and (max-width: 300px) {
-	h1 {
-		font-size: 1.5rem;
-	}
-
-	.intro-text h2 {
-		font-size: 1.25rem;
-	}
-
 	h3 {
 		font-size: 1rem;
 	}
 
 	h4 {
 		font-size: 1.25rem;
+	}
+
+	.intro-text h2 {
+		font-size: 1.5rem;
+	}
+
+	.intro-text p {
+		font-size: 1rem;
 	}
 
 	button {
